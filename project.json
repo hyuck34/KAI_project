@@ -1,0 +1,58 @@
+{
+  "name": "KAI_Project",
+  "description": "■ 확인요청사항\r\n\r\n1. (SAP) SAP Header 변수에 저장 → 임시 db 테이블에 header 정보 저장\r\n\r\n   - 필요사항 : RPA코드, RPA 수행영상\r\n\r\n2. (Object Repository) Object Repository 이용방법 매뉴얼\r\n\r\n   - 필요사항 : 매뉴얼파일\r\n\r\n3. (Object Repository) 이용하여 특정 웹사이트 로그인(간단 샘플)\r\n\r\n   - 필요사항 : RPA 개발영상\r\n\r\n4. (Excel) 피벗테이블 생성\r\n\r\n   - 필요사항 : RPA코드, RPA 수행영상\r\n\r\n5. (Excel) 차트 생성\r\n\r\n   - 필요사항 : RPA코드, RPA 수행영상",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.5]",
+    "UiPath.UIAutomation.Activities": "[22.4.7]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.6.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "943bf583-b25a-435b-8d8e-628257cce441",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
